@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "vazir";
+}
+
+body {
+  background-color: #fff !important;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  outline: 0;
+  font-family: system-ui !important;
+  font-family: "yekan";
+}
+
+input::-webkit-input-placeholder {
+  font-family: "yekan";
+}
+
+input:-ms-input-placeholder {
+  font-family: "yekan";
+}
+
+input::-ms-input-placeholder {
+  font-family: "yekan";
+}
+
+input::placeholder {
+  font-family: "yekan";
+}
+
+input:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+/* Vazir */
+@font-face {
+  font-family: vazir;
+  src: url("../fonts/Vazir.eot") format("eot");
+  src: url("../fonts/Vazir.woff") format("woff"), url("../fonts/Vazir.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: vazir-light;
+  src: url("../fonts/Vazir-Light.eot") format("eot");
+  src: url("../fonts/Vazir-Light.woff") format("woff"), url("../fonts/Vazir-Light.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: vazir-medium;
+  src: url("../fonts/Vazir-Medium.eot") format("eot");
+  src: url("../fonts/Vazir-Medium.woff") format("woff"), url("../fonts/Vazir-Medium.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: vazir-bold;
+  src: url("../fonts/Vazir-Bold.eot") format("eot");
+  src: url("../fonts/Vazir-Bold.woff") format("woff"), url("../fonts/Vazir-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Yekan */
+@font-face {
+  font-family: yekan;
+  src: url("../fonts/Yekan.eot") format("eot");
+  src: url("../fonts/Yekan.eot") format("ttf");
+  src: url("../fonts/Yekan.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #e1e1e1 !important;
+}
+
+.login {
+  margin-top: 100px;
+}
+
+.login .login__header {
+  margin-bottom: 40px;
+}
+
+.login .login__header .login__header__title {
+  font-size: 1.7rem !important;
+  text-align: center;
+  font-weight: 600;
+  color: #000;
+}
+
+.login .login__header .login__header__sub-title {
+  font-size: 12px;
+  color: #a7a7a7;
+  text-align: center;
+  font-weight: 300;
+}
+
+.login .login__via-links {
+  margin-bottom: 40px;
+}
+
+.login .login__via-links .login__via-links__google {
+  margin-bottom: 15px;
+  background-color: #f4b400;
+}
+
+.login .login__via-links .login__via-links__google .login__via-links__item__icon {
+  background-color: #ca9607;
+}
+
+.login .login__via-links .login__via-links__twitter {
+  background-color: #55acee;
+}
+
+.login .login__via-links .login__via-links__twitter .login__via-links__item__icon {
+  background-color: #0a7acf !important;
+}
+
+.login .login__via-links .login__via-links__item {
+  display: block !important;
+  width: 100%;
+  height: 46px;
+  position: relative;
+  border: 0 !important;
+  line-height: 46px;
+  text-align: center;
+}
+
+.login .login__via-links .login__via-links__item__text {
+  display: inline-block;
+  text-align: center;
+  font-size: 17px;
+  color: #fff;
+}
+
+.login .login__via-links .login__via-links__item__icon {
+  display: inline-block;
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  left: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.login .login__form {
+  overflow: hidden;
+}
+
+.login .login__form .login__form__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  position: relative;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #000;
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 0 10px !important;
+}
+
+.login .login__form .login__form__title::after {
+  content: "";
+  position: absolute;
+  width: 31%;
+  left: 0;
+  top: 12px;
+  border-top: 4px double #ccc;
+}
+
+.login .login__form .login__form__title::before {
+  content: "";
+  position: absolute;
+  width: 31%;
+  right: 0;
+  top: 12px;
+  border-top: 4px double #ccc;
+}
+
+.login .login__form .login__form__form-control {
+  border: 0;
+  height: 46px;
+  outline: 0;
+  background-color: #fff !important;
+  font-size: 14px;
+  margin-bottom: 15px;
+  border-radius: 0 !important;
+}
+
+.login .login__form .login__form__form-control::-webkit-input-placeholder {
+  color: #989898 !important;
+  text-align: right;
+}
+
+.login .login__form .login__form__form-control:-ms-input-placeholder {
+  color: #989898 !important;
+  text-align: right;
+}
+
+.login .login__form .login__form__form-control::-ms-input-placeholder {
+  color: #989898 !important;
+  text-align: right;
+}
+
+.login .login__form .login__form__form-control::placeholder {
+  color: #989898 !important;
+  text-align: right;
+}
+
+.login .login__form .login__form__btn {
+  width: 100%;
+  height: 46px;
+  position: relative;
+  border: 0 !important;
+  text-align: center;
+  background-color: #d63031 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+
+.login .login__form .login__form__btn .login__form__btn__text {
+  display: inline-block;
+  text-align: center;
+  font-size: 17px;
+  color: #fff;
+}
+
+.login .login__form .login__form__btn .login__form__btn__icon {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  line-height: 46px;
+  width: 46px;
+  height: 46px;
+  left: 0;
+  color: #fff;
+  text-align: center;
+  background-color: #c41e23 !important;
+}
+
+.form-captcha {
+  height: 60px !important;
+  width: 100%;
+  border: 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+@media only screen and (max-width: 769px) {
+  .login {
+    margin-top: 50px !important;
+  }
+}
+/*# sourceMappingURL=login.css.map */
