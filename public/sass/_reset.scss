@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "vazir";
+}
+
+body {
+  background-color: #fff !important;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  box-shadow: none !important;
+  outline: 0;
+  font-family: system-ui !important;
+  font-family: "yekan";
+
+  &::placeholder {
+    font-family: "yekan";
+  }
+
+  &:focus {
+    box-shadow: none !important;
+  }
+}
